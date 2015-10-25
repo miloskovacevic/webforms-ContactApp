@@ -4,3 +4,5 @@ D:\playground\webforms-ContactApp\ContactsApp\ContactsApp\bin\ContactsApp.pdb
 D:\playground\webforms-ContactApp\ContactsApp\ContactsApp\obj\Debug\ContactsApp.csprojResolveAssemblyReference.cache
 D:\playground\webforms-ContactApp\ContactsApp\ContactsApp\obj\Debug\ContactsApp.dll
 D:\playground\webforms-ContactApp\ContactsApp\ContactsApp\obj\Debug\ContactsApp.pdb
+D:\playground\webforms-ContactApp\ContactsApp\ContactsApp\bin\EntityFramework.dll
+D:\playground\webforms-ContactApp\ContactsApp\ContactsApp\bin\EntityFramework.xml
