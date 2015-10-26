@@ -17,7 +17,6 @@ namespace ContactsApp
             {
                 Response.Write(db.ContactLogs.Count().ToString());
             }
-
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
@@ -44,12 +43,8 @@ namespace ContactsApp
             }
             else 
             {
-                
 
             }
-
-
-
         }
     }
 }

@@ -63,6 +63,7 @@
   <ItemGroup>
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Log.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +80,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Log.aspx.cs">
+      <DependentUpon>Log.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Log.aspx.designer.cs">
+      <DependentUpon>Log.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\ContactDatabase.cs" />
     <Compile Include="Models\ContactLog.cs" />
