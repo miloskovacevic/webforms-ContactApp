@@ -1,13 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="ContactsApp.Contact" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="ContactsApp.Contact" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+    <h1>Contact Us</h1>
         <asp:Panel ID="pnlFormFields" runat="server" Visible="true">
             <p>
                 <asp:Label ID="lblName" runat="server" AssociatedControlID="txtName" Text="Name:" />
@@ -42,6 +36,4 @@
         <asp:Panel ID="pnlSuccessMessage"  runat="server" Visible="false">
             <p>Thank you for sending your message <a href="contact.aspx">Go back to form</a> </p>
         </asp:Panel>
-    </form>
-</body>
-</html>
+    </asp:Content>

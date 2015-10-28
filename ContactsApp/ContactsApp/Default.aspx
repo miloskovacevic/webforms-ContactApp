@@ -1,16 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ContactsApp.Default" %>
+﻿<%@ Page Language="C#" Title="Default Page" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ContactsApp.Default" %>
 
-<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
-</html>
+<asp:Content ContentPlaceHolderID="MainContent" runat="server">
+    <h1>Home</h1>
+    <a href="<%: GetRouteUrl("ContactForm", null) %>">Contact Us</a>
+</asp:Content>

@@ -13,10 +13,7 @@ namespace ContactsApp
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            using (var db = new ContactDatabase())
-            {
-                Response.Write(db.ContactLogs.Count().ToString());
-            }
+           
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
