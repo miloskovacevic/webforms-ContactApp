@@ -62,8 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Contact.aspx" />
+    <Content Include="ContactDetail.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="Log.aspx" />
+    <Content Include="TestContactDetail.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -74,12 +77,22 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ContactDetail.aspx.cs">
+      <DependentUpon>ContactDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactDetail.aspx.designer.cs">
+      <DependentUpon>ContactDetail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Log.aspx.cs">
       <DependentUpon>Log.aspx</DependentUpon>
@@ -91,6 +104,13 @@
     <Compile Include="Models\ContactDatabase.cs" />
     <Compile Include="Models\ContactLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestContactDetail.aspx.cs">
+      <DependentUpon>TestContactDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestContactDetail.aspx.designer.cs">
+      <DependentUpon>TestContactDetail.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

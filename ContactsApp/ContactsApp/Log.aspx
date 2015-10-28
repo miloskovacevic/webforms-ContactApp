@@ -23,24 +23,26 @@
                 <table border="0" cellspacing="2" cellpadding="2">
                     
                     <thead>
-                        
                             <th>Name</th                      
                             <th>Subject</th>
                             <th>Date Sent</th>
-                        
                     </thead>
                     <tbody>
             </HeaderTemplate>
             <ItemTemplate>
                 <tr class="odd">
-                    <td><%#: Item.Name %></td>
+                    <td><a href="<%#: GetRouteUrl("ContactDetail", new { contactLogId = Item.ID })   %>">
+                         <%#: Item.Name %> 
+                        </a></td>
                     <td><%#: Item.Subject %></td>
                     <td><%#: Item.DateSent %></td>
                 </tr>
             </ItemTemplate>
             <AlternatingItemTemplate>
                 <tr class="even">
-                    <td><%#: Item.Name %></td>
+                    <td><a href="<%#: GetRouteUrl("ContactDetail", new { contactLogId = Item.ID })   %>">
+                        <%#: Item.Name %> 
+                    </a></td>
                     <td><%#: Item.Subject %></td>
                     <td><%#: Item.DateSent %></td>
                 </tr>    
